@@ -14,3 +14,4 @@ parameters:
     mailer_password:   ~
 
     secret:            ThisTokenIsNotSoSecretChangeIt
+    elements_per_page: 2

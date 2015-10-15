@@ -21,7 +21,7 @@ class TestEntity
      * @var string $id
      *
      * @ORM\Id
-     * @ORM\Column(name="id", type="string", length=8)
+     * @ORM\Column(name="id", type="string", length=36)
      */
     protected $id;
 

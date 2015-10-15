@@ -4,6 +4,8 @@ parameters:
 #    parameter_name: value
 
 services:
-#    service_name:
-#        class: AppBundle\Directory\ClassName
-#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+    app.entity.test_entity:
+        class: AppBundle\Service\TestEntityService
+        arguments:
+            - @doctrine.orm.entity_manager
+            - %elements_per_page%
