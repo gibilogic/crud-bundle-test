@@ -179,7 +179,7 @@ class ServiceTest extends KernelTestCase
         $request = Request::createFromGlobals();
         $request->setSession(new Session(new MockArraySessionStorage()));
 
-        $result = $this->service->findEntities($request, true);
+        $result = $this->service->findEntities($request, array(), true);
 
         /* @var \Doctrine\ORM\Tools\Pagination\Paginator $entities */
         $entities = $result['entities'];

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d2baa6a4bdf316e73e499625c951ae8",
-    "content-hash": "1f9f3b13c2156db629ca0e628c764e7d",
+    "hash": "1743e4925f1cb61db597f50df6ce77b5",
+    "content-hash": "7ca5e3b0d4fa0757a0ba74c43d1d968c",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -775,12 +775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gibilogic/crud-bundle.git",
-                "reference": "2631322e0986b592aa9f27dc8a51c125bd0e801e"
+                "reference": "98554169f8fb9ac873e5412990d0c3302c4a088d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gibilogic/crud-bundle/zipball/2631322e0986b592aa9f27dc8a51c125bd0e801e",
-                "reference": "2631322e0986b592aa9f27dc8a51c125bd0e801e",
+                "url": "https://api.github.com/repos/gibilogic/crud-bundle/zipball/98554169f8fb9ac873e5412990d0c3302c4a088d",
+                "reference": "98554169f8fb9ac873e5412990d0c3302c4a088d",
                 "shasum": ""
             },
             "require": {
@@ -795,14 +795,15 @@
                     "Gibilogic\\CrudBundle\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "GiBilogic Snc",
-                    "homepage": "http://www.gibilogic.com",
-                    "email": "info@gibilogic.com"
+                    "email": "info@gibilogic.com",
+                    "homepage": "http://www.gibilogic.com"
                 }
             ],
             "description": "GiBiLogic CRUD Bundle",
@@ -810,11 +811,7 @@
             "keywords": [
                 "crud"
             ],
-            "support": {
-                "source": "https://github.com/gibilogic/crud-bundle/tree/2.0-dev",
-                "issues": "https://github.com/gibilogic/crud-bundle/issues"
-            },
-            "time": "2015-10-15 09:13:02"
+            "time": "2015-10-26 10:44:35"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -1112,17 +1109,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "62d99ba41144e704300e40f755346553702b27c9"
+                "reference": "6f5d663a1a34b5116c69009895feb81fb37a8875"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/62d99ba41144e704300e40f755346553702b27c9",
-                "reference": "62d99ba41144e704300e40f755346553702b27c9",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/6f5d663a1a34b5116c69009895feb81fb37a8875",
+                "reference": "6f5d663a1a34b5116c69009895feb81fb37a8875",
                 "shasum": ""
             },
             "require": {
@@ -1168,7 +1165,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-08-03 10:07:56"
+            "time": "2015-10-20 06:54:18"
         },
         {
             "name": "sensio/framework-extra-bundle",
